@@ -13,11 +13,11 @@ See this example in the official documentation [extending routes](https://adonis
 Step One:
 
 ```bash
-adonis install adonis-route-model-binding
+adonis install route-model-binding-adonisjs
 # or
-npm install --save adonisjs-route-model-binding
+npm install --save route-model-binding-adonisjs
 # or
-yarn add adonisjs-route-model-binding
+yarn add route-model-binding-adonisjs
 ```
 
 Step Two: Register the provider to your `start/app.js` file
@@ -25,7 +25,7 @@ Step Two: Register the provider to your `start/app.js` file
 ```js
 const providers = [
   ...
-  'adonisjs-route-model-binding/providers/RMBProvider',
+  'route-model-binding-adonisjs/providers/RMBProvider',
 ]
 ```
 

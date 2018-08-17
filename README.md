@@ -40,7 +40,7 @@ Finally, you will have access to the `post` object in the `destroy` method
 ```js
 class PostController {
   
-  async destroy({ request, params, post }) {
+  async destroy({ post }) {
     
     post.delete()
       return { status: 'post deleted succ...' }

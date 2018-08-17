@@ -1,4 +1,4 @@
-# adonisjs-route-model-binding
+# Adonisjs: route model binding
 
 Route Model Binding. When you inject a model ID into a route, you will often look to retrieve the model that corresponds to that ID. This package provides a convenient solution for Adonis 4.x.
 

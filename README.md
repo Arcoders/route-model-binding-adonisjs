@@ -43,7 +43,8 @@ class PostController {
   async destroy({ post }) {
     
     post.delete()
-      return { status: 'post deleted succ...' }
+    
+    return { status: 'post deleted succ...' }
 
   }
   

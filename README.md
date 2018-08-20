@@ -13,8 +13,6 @@ See this example in the official documentation [extending routes](https://adonis
 Step One:
 
 ```bash
-adonis install route-model-binding-adonisjs
-# or
 npm install --save route-model-binding-adonisjs
 # or
 yarn add route-model-binding-adonisjs

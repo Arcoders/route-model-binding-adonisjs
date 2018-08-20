@@ -1,6 +1,6 @@
 {
   "name": "route-model-binding-adonisjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Route Model Binding. When you inject a model ID into a route, you will often look to retrieve the model that corresponds to that ID. This package provides a convenient solution for Adonis.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

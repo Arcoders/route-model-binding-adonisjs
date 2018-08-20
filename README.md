@@ -29,8 +29,9 @@ const providers = [
 
 The bind method can be used as follows.
 
-`Post` refers to the model name
-`:post` make sure that the parameter name is the same as the lowercase model 
+`Post` refers to the model name.
+
+Make sure that the parameter name is the same as the lowercase model `:post`
 
 ```js
 Route.delete('route/:post', 'PostController.destroy').bind('Post');

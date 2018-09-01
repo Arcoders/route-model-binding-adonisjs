@@ -44,7 +44,7 @@ class PostController {
   
   async destroy({ post }) {
     
-    post.delete()
+    await post.delete()
     
     return { status: 'post deleted succ...' }
 
